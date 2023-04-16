@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/omer/Desktop/open_source/compose/api/api.csproj": {}
+    "/app/api.csproj": {}
   },
   "projects": {
-    "/home/omer/Desktop/open_source/compose/api/api.csproj": {
+    "/app/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/omer/Desktop/open_source/compose/api/api.csproj",
+        "projectUniqueName": "/app/api.csproj",
         "projectName": "api",
-        "projectPath": "/home/omer/Desktop/open_source/compose/api/api.csproj",
-        "packagesPath": "/home/omer/.nuget/packages/",
-        "outputPath": "/home/omer/Desktop/open_source/compose/api/obj/",
+        "projectPath": "/app/api.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/omer/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -49,7 +49,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
         }
       }
     }
